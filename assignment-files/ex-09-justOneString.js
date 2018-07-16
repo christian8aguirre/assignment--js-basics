@@ -11,7 +11,17 @@
 
 
 // ++ YOUR Code below (write the 'makeGreeting' function): ++
-
+function justOneString(par1, par2) {
+    var typepar1 = typeof par1;
+    var typepar2 = typeof par2;
+    if (typepar1==="string" && typepar2==="string") {
+        return false;
+    } else if(typepar1!=="string" && typepar2!=="string"){
+        return false;
+    } else if(typepar1==="string" || typepar2==="string"){
+        return true;
+    }
+}
 
 
 /*-------------------TEST-1-------------------------*/

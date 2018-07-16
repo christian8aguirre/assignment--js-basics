@@ -12,7 +12,9 @@
  // ++ YOUR Code below (write the 'getAverage' function): ++
 
 
-
+function getAverage(num1, num2) {
+    return (num1+num2)/2;
+}
 
 
 

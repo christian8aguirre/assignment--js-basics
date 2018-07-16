@@ -11,7 +11,9 @@
  // ++ YOUR Code below (write the 'makeGreeting' function): ++
 
 
-
+function makeGreeting(name) {
+    return "Hello " + name;
+}
 
 
 

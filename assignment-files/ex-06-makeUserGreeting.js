@@ -20,7 +20,13 @@
 
 
 // ++ YOUR Code below (write the 'makeGreeting' function): ++
-
+function makeUserGreeting(name, option) {
+    if (option) {
+        return "Good to see you again, " + name +".";
+    }else{
+        return "Welcome, " + name + "!";
+    }
+}
 
 // *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
 // *~*~*~*~*~*~*~* Tests (Don't Touch) *~*~*~*~*~*~*~*~*

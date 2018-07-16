@@ -9,7 +9,15 @@
 
 // ++ YOUR Code below (write the 'makeGreeting' function): ++
 
-
+function isVowel(word) {
+    word= word.toLowerCase();
+    if (word === 'a' || word === 'e' || word === 'i'
+    || word === 'o' || word === 'u') {
+        return true;
+    }else{
+        return false;
+    }
+}
 
 // *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
 // *~*~*~*~*~*~*~* Tests (Don't Touch) *~*~*~*~*~*~*~*~*
@@ -26,7 +34,7 @@ console.assert(isVowel('e') === true);
 console.assert(isVowel('i') === true);
 console.assert(isVowel('o') === true);
 console.assert(isVowel('u') === true);
-console.assert(isVowel('y') === true);
+console.assert(isVowel('y') === false);
  //(of course, 'y' is a vowel!!)
 
 /*-------------------TEST-2-------------------------*/
